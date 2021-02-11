@@ -201,7 +201,9 @@ footer{
   }
 
   .row{
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
   }
   .sidy-by-side{
     flex-direction: column;
@@ -251,4 +253,16 @@ to   { opacity: 1; }
 @-o-keyframes fadein {
 from { opacity: 0; }
 to   { opacity: 1; }
+}
+
+.emphasize{
+  border-left: #27AE60 solid 5px;
+  box-shadow: 1px 0px 5px 0px rgba(39,174,96,1);
+  padding: 1em;
+}
+
+h2, .emphasize{
+  margin: 0em;
+  border-left-style: none;
+  text-align: center;
 }
