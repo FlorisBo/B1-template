@@ -273,7 +273,12 @@ h2 .emphasize{
   margin-left: 5px;
 }
 
-
 .text-beschrijving span{
   font-weight: bold;
+}
+
+.sidy-by-side{
+  display: flex;
+  justify-content: space-between;
+  border-left: none;
 }
