@@ -289,3 +289,7 @@ h2 .emphasize{
   justify-content: space-between;
   border-left: none;
 }
+
+button{
+  cursor: pointer;
+}
